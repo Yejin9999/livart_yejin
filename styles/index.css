@@ -275,7 +275,7 @@ main .review .review_contents ul {
     display:flex; flex-flow:row nowrap; justify-content:space-between;
 }
 main .review .review_contents ul li {
-    width:calc((100% - auto) / 4 );
+    width:calc((100% - 27px) / 4 );
 }
 main .review .review_contents ul li a {}
 main .review .review_contents ul li a img {width:100%;}
