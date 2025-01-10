@@ -7,12 +7,14 @@ header {
 header .head_men {
     display:flex; flex-flow:row nowrap;
     justify-content:space-between;
+    margin-top:15px;
 }
 header .head_men h1 {}
 header .head_men h1 a {display:block;}
 header .head_men h1 a img {}
 header .head_men nav {
     display:flex; flex-flow:nowrap;
+    align-items:center;
 }
 header .head_men nav .left_men {
     background-color:palegreen;
@@ -255,7 +257,6 @@ main .event_wrap ul li p {
 /* ===프로모션 끝===== */
 /* ===베스트리뷰시작==== */
 main .review {
-    background-color:aquamarine;
     width:1761px; margin:150px auto;
 }
 main .review h2 {
@@ -281,6 +282,64 @@ main .review .review_contents ul li a {}
 main .review .review_contents ul li a img {width:100%;}
 main .review .review_contents ul li p {
     margin-top:15px;
-    font-size:1.38rem; font-weight:500; line-height:1.5; letter-spacing:-0.02rem;
+    font-size:1.25rem; font-weight:500; line-height:1.5; letter-spacing:-0.02rem;
 }
 /* ===베스트리뷰끝==== */
+/* ========footer시작 */
+footer {
+    background-color:#1C1B1F ;
+    padding:0 80px;
+}
+footer * {
+    color:#fff;
+    font-size:1.13rem;
+    font-weight:600;
+    line-height:1.5; letter-spacing:-0.02rem;
+}
+footer .top {
+    display:flex; flex-flow:row nowrap;
+    justify-content:space-between;
+    padding:56px 0 10px 0;
+    border-bottom:1px solid #aaa;
+}
+footer .top .top_left {
+    display:flex;
+}
+footer .top .top_left > a {
+    margin-right:30px;
+    display:block;
+}
+footer .top .top_left > a:last-child {margin:0;}
+footer .top .top_right {}
+footer .top .top_right > a {}
+footer .link {
+    display:flex;
+    flex-flow:row nowrap; justify-content:space-between;
+    margin:30px 0;
+}
+footer .link > a {}
+footer .link > a img {width:100%;}
+footer .sns {
+    display:flex;
+    flex-flow:row nowrap;
+}
+footer .sns > a {
+    margin-right:15px;
+}
+footer .sns > a:last-child {margin:0;}
+footer .sns > a img {width:100%;}
+footer .bottom {
+    display:flex; flex-flow:row nowrap;
+    justify-content:space-between;
+}
+footer .bottom .f_if {}
+footer .bottom .f_if address {}
+footer .bottom .f_if p {
+    margin-top:30px;
+}
+footer .bottom .qr {}
+footer .bottom .qr p {
+    margin-bottom:20px;
+}
+footer .bottom .qr a {}
+footer .bottom .qr a img {}
