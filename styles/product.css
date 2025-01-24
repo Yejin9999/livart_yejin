@@ -98,7 +98,9 @@ main .sub_contents .product_contents .benefit dd a:first-child {margin-bottom:15
 /* =====가격정보내용끝============= */
 main .sub_contents .product_contents .option {
     display:flex; flex-flow:column nowrap;
+    border-top:1px solid #aaa;
     margin-top:40px;
+    padding-top:40px;
 }
 main .sub_contents .product_contents .option #color {
     padding:10px 20px; 
