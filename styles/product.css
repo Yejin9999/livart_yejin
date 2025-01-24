@@ -58,6 +58,7 @@ main .sub_contents .product_contents .price_before .price {
 }
 main .sub_contents .product_contents .price_before .price em {
     font-size:1.88rem; font-weight:700;
+    text-decoration:line-through;
 }
 main .sub_contents .product_contents .price_result {
     margin:40px 0;
