@@ -93,7 +93,10 @@ main .sub_contents .product_contents .coupon dd {
     padding:10px; 
 }
 main .sub_contents .product_contents .delivery {margin:35px 0;}
-main .sub_contents .product_contents .benefit dd {display:flex; flex-flow:column nowrap;}
+main .sub_contents .product_contents .benefit dd {
+    display:flex; flex-flow:column nowrap;
+    margin-left:75px;
+}
 main .sub_contents .product_contents .benefit dd a:first-child {margin-bottom:15px;}
 /* =====가격정보내용끝============= */
 main .sub_contents .product_contents .option {
